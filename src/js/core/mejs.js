@@ -45,7 +45,7 @@ mejs.html5media = {
 	 * @type {String[]}
 	 */
 	mediaTypes: [
-		'audio/mp3', 'audio/ogg', 'audio/oga', 'audio/wav', 'audio/x-wav', 'audio/wave', 'audio/x-pn-wav', 'audio/mpeg', 'audio/mp4',
+		'audio/mp3', 'audio/ogg', 'audio/oga', 'audio/wav', 'audio/x-wav', 'audio/wave', 'audio/x-pn-wav', 'audio/mpeg', 'audio/mp4', 'audio/opus',
 		'video/mp4', 'video/webm', 'video/ogg', 'video/ogv'
 	]
 };
