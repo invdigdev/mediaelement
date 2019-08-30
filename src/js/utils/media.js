@@ -80,7 +80,7 @@ export function getTypeFromFile (url) {
 	if (normalizedExt) {
 		if (~['mp4', 'm4v', 'ogg', 'ogv', 'webm', 'flv', 'mpeg', 'mov'].indexOf(normalizedExt)) {
 			mime = `video/${normalizedExt}`;
-		} else if (~['mp3', 'oga', 'wav', 'mid', 'midi'].indexOf(normalizedExt)) {
+		} else if (~['mp3', 'oga', 'wav', 'mid', 'midi', 'opus'].indexOf(normalizedExt)) {
 			mime = `audio/${normalizedExt}`;
 		}
 	}
@@ -128,6 +128,7 @@ export function normalizeExtension (extension) {
 		case 'oga':
 		case 'ogv':
 			return 'ogg';
+		case 'opus':
 		default:
 			return extension;
 	}
