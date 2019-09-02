@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript">
+
+let audioContext;
+
+try {
+      audioContext =
+              new (window.AudioContext || window.webkitAudioContext)();
+} catch (error) {
+      window.alert(
+                  `Sorry, but your browser doesn't support the Web Audio API!`
+                    );
+}
+
+if (audioContext !== undefined) {
+    //
+}
+
+</script>
+</head>
+<body>
+</body>
+</html>
